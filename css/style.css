@@ -1,0 +1,592 @@
+*{
+    list-style: none;
+    text-decoration: none;
+}
+main{
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+body{
+    margin: 0;
+}
+.logo{
+    width: 120px;
+    height: 40px;
+}
+.logo img{
+    padding-left: 100%;
+    padding-top: 10px;
+    width: 100%;
+    height: auto;
+}
+.g-nav ul{
+    display: flex;
+    margin-left: 70% ;
+}
+.g-nav li{
+    
+    padding: 20px 30px;
+}
+.g-nav a{
+    color: gray;
+}
+.my-profile{
+    width: 100%;
+    height: 800px;
+}
+h1{
+    font-size: 100px;
+    margin-bottom: 0;
+}
+.my-profile h2{
+    font-size: 68px;
+    padding-left:70% ;
+    margin-bottom: 0;
+}
+.my-profile p{
+    margin-top: 20px;
+    padding-bottom: 100px;
+}
+.since{
+    padding-left: 70%;
+}
+/*スクロールダウンのコード*/
+.scroll_down a{
+    opacity: 1;
+    -webkit-transition: all .5s ease-in 3s;
+    transition: all .5s ease-in 3s;
+  }
+  
+  .scroll_down a{
+    color: #000;
+    position: absolute;
+    bottom: 60px;
+    left: 50%;
+    display: block;
+    background-size: 14px auto;
+    z-index: 2;
+    text-decoration: none; 
+    transform: translate(-50%, -50%);
+  }
+  
+  .scroll_down a:before {
+    position: absolute;
+    top: calc(50% + 24px);
+    left: calc(50% - 8px);
+    transform: rotate(-45deg);
+    display: block;
+    width: 12px;
+    height: 12px;
+    content: "";
+    border: 2px solid #000;
+    border-width: 0px 0 2px 2px;
+    animation: bounce 2s linear infinite;
+  }
+  
+  .scroll_down a:after {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    border: 2px solid #000;
+    content: "";
+    border-radius: 50%;
+    top: calc(50% + 16px);
+    left: calc(50% - 19px);
+  }
+  
+  @keyframes bounce {
+    0%,
+    100%,
+    20%,
+    50%,
+    70%,
+    80% {
+      -webkit-transform: translateY(0)rotate(-45deg);
+      -ms-transform: translateY(0)rotate(-45deg);
+      transform: translateY(0)rotate(-45deg);
+    }
+    40% {
+      -webkit-transform: translateY(-8px)rotate(-45deg);
+      -ms-transform: translateY(-8px)rotate(-45deg);
+      transform: translateY(-8px)rotate(-45deg);
+    }
+    60% {
+      -webkit-transform: translateY(-4px)rotate(-45deg);
+      -ms-transform: translateY(-4px)rotate(-45deg);
+      transform: translateY(-4px)rotate(-45deg);
+    }
+  }
+
+.About{
+    background-color: rgb(233, 233, 233);
+    height: 700px;
+    margin-top: 250px;
+}
+.About-title{
+    display: flex;
+}
+.About-title h2{
+    font-size: 80px;
+    margin: 0;
+    padding-left: 5%;
+    padding-top: 50px;
+}
+.About-title p{
+    margin: 0;
+    font-size: 30px;
+    padding-top: 105px;
+    padding-left: 50px;
+}
+
+.center{
+    font-size: 24px;
+    text-align: center;
+    padding-top: 120px;
+}
+.About a{
+    color: black;
+    font-size: 32px;
+    padding-top: 50px;
+    padding-left: 80%;
+    border-bottom: 2px solid black;
+}
+.More{
+    width: 50px;
+    height: auto;
+}
+.More img{
+    width: 100%;
+    height: auto;
+    padding-top: 40px;
+}
+.Line{
+    display: flex;
+}
+
+
+.Works{
+    margin-top: 250px;
+}
+.Work-title{
+    display: flex;
+}
+.Work-title h2{
+    font-size: 80px;
+    margin: 0;
+    padding-left: 5%;
+}
+.Work-title p{
+    margin: 0;
+    font-size: 30px;
+    padding-top: 55px;
+    padding-left: 50px;
+
+}
+.project-grid{
+    margin-top: 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 3fr 3fr;
+    gap: 50px;
+}
+.project-list{
+    background-color: rgb(255, 255, 255);
+    border: #c2c2c2 2px solid;
+}
+.project-list a{
+    color: #000;
+}
+.project-imgbox{
+    width: 100%;
+    height: auto;
+}
+.project-imgbox img{
+    width: 100%;
+    height: auto;
+    border-bottom: #d5d5d5 1px solid;
+}
+.project-list h3{
+    font-size: 32px;
+}
+
+footer{
+    background-color: rgb(0, 0, 0);
+    height: 900px;
+    border-radius: 90px 90px 0 0 ;
+}
+footer h2{
+    font-size: 80px;
+    text-align: center;
+    padding-top: 5%;
+    color: white;
+}
+footer p{
+    font-size: 92px;
+    text-align: center;
+    color: white;
+}
+.copy {
+    color: white;
+    text-align: center;
+    
+    font-size: 20px;
+}
+
+#page-top{
+    position: fixed;
+    bottom: 0;
+    right: 5%;
+    width: 100px;
+    height: 100px;
+}
+footer hr{
+    margin-top: 15%;
+}
+
+
+/*Works*/
+#Work-1{
+    margin: 0;
+}
+#title{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.Works-back{
+    background-color: orange;
+    border-radius: 90px 90px 0 0;
+    height: 1500px;
+}
+.Works-flex{
+    display: flex;
+    justify-content: end;
+}
+.Works-flex h2{
+    padding-left: 80px;
+    padding-top: 60px;
+    font-size: 28px;
+}
+.Works-title{
+    margin-top: 120px;
+    margin-bottom: 80px;
+    font-size: 44px;
+    padding: 0 10%;
+}
+.Works-title-img{
+    width: 100%;
+    height: auto;
+}
+.Works-title-img img{
+    width: 100%;
+    height: auto;
+}
+.Works-back-sec{
+    padding-left:10% ;
+    padding-right: 10%;
+}
+.Works-back h2{
+    font-size: 28px;
+    padding-top: 5%;
+    color: white;
+    border-bottom: 2px white solid;
+}
+.Works-back h3{
+    font-size: 56px;
+    color: white;
+}
+.Works-back p{
+    color: white;
+    font-size: 24px;
+    line-height: 200%;
+}
+.none{
+    margin: 0;
+}
+
+.Works-process{
+    margin-top: 80px;
+    background-color: rgb(248, 248, 248);
+    height: 1500px;
+    border-radius: 90px 90px 0 0;
+    padding-bottom: 50px;
+}
+.Works-process h2{
+    color: #000;
+    padding: 5% 10% 0 10%;
+}
+.Works-process h3{
+    color: #000;
+    padding-left: 10%;
+}
+.all-pro{
+    display: flex;
+}
+.all-pro p{
+    color: #000;
+    padding-left: 30px;
+    padding-top: 55px;
+    font-size: 28px
+    
+}
+
+
+.footer-down{
+    margin-top: 300px;
+}
+
+
+.slide-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    padding: 0 0 1em;
+    margin: 0 0 2em 0;
+    padding-left: 20%;
+
+    /* 1枚目の画像を中央揃えするためのスクロールパディング */
+    scroll-padding-left: 20%;
+    margin-bottom: 70px;
+}
+
+.slide-wrap .slide-content {
+    flex: 0 0 90%; /* 子要素のサイズを90%に設定 */
+    margin: 0 10px;
+    height: 100%;
+}
+
+@media screen and (max-width: 480px) {
+    .slide-wrap .slide-content {
+        flex: 0 0 88%;
+        margin: 0px 5px;
+        scroll-snap-align: center;
+    }
+
+    /* 小さい画面でも中央揃えを維持 */
+    .slide-wrap {
+        scroll-padding-left: 6%; /* 調整値を変更する場合あり */
+    }
+}
+
+.color-design{
+    margin-top: 400px;
+    border-radius: 60px 90px 0 0 ;
+    background-color: rgb(254, 247, 214);
+    height: 1200px;
+    padding: 0 10%;
+}
+.color-design h2{
+    font-size: 28px;
+    padding-top: 5%;
+    color: rgb(39, 39, 39);
+    border-bottom: 2px rgb(40, 40, 40) solid;
+}
+.color-design h3{
+    font-size: 56px;
+    color: black;
+}
+.color-design p{
+    color: #000;
+    padding-left: 30px;
+    padding-top: 55px;
+    font-size: 28px
+}
+.color-box-main{
+    width: 150px; /* 幅を指定 */
+    height: 150px; /* 高さを指定 */
+    background-color: #f67b00; /* 色を指定 */
+    border: 2px solid black; /* 枠線を追加（任意） */
+    margin: 20px auto; /* 自動で中央揃え */
+}
+.color-box-sub{
+    width: 150px; /* 幅を指定 */
+    height: 150px; /* 高さを指定 */
+    background-color: #ffd97a; /* 色を指定 */
+    border: 2px solid black; /* 枠線を追加（任意） */
+    margin: 20px auto; /* 自動で中央揃え */
+}
+.color-box-accent{
+    width: 150px; /* 幅を指定 */
+    height: 150px; /* 高さを指定 */
+    background-color: #ff7b00; /* 色を指定 */
+    border: 2px solid black; /* 枠線を追加（任意） */
+    margin: 20px auto; /* 自動で中央揃え */
+}
+.color-box-base{
+    width: 150px; /* 幅を指定 */
+    height: 150px; /* 高さを指定 */
+    background-color: #ffffff; /* 色を指定 */
+    border: 2px solid black; /* 枠線を追加（任意） */
+    margin: 20px auto; /* 自動で中央揃え */
+}
+.color-box-text{
+    width: 150px; /* 幅を指定 */
+    height: 150px; /* 高さを指定 */
+    background-color: #000000; /* 色を指定 */
+    border: 2px solid black; /* 枠線を追加（任意） */
+    margin: 20px auto; /* 自動で中央揃え */
+}
+.color-box-rink{
+    width: 150px; /* 幅を指定 */
+    height: 150px; /* 高さを指定 */
+    background-color: #4b28fb; /* 色を指定 */
+    border: 2px solid black; /* 枠線を追加（任意） */
+    margin: 20px auto; /* 自動で中央揃え */
+}
+.color-box-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.color-box-flex-right h4{
+    font-size: 30px;
+    margin: 0;
+    margin-top: 12px;
+    margin-left: 30px
+}
+.color-box-grid{
+    display: grid;
+    margin-top: 100px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.mockup{
+    background-color: #ffffff;
+    border-radius: 90px 90px 0 0;
+    height: 9000px;
+    margin: 0 10%;
+    
+    
+}
+.mockup-list{
+    display: flex;
+    gap: 10%;
+    padding-left: 5%;
+
+}
+.mockup h2{
+    font-size: 28px;
+    padding-top: 5%;
+    color: rgb(39, 39, 39);
+    border-bottom: 2px rgb(40, 40, 40) solid;
+}
+.mockup h3{
+    font-size: 56px;
+    color: black;
+}
+
+.mockup-pc{
+    width: 50%;
+    height: auto;
+}
+.mockup-pc img{
+    width: 100%;
+    height: auto;
+}
+.mockup-sp{
+    width: 40%;
+    height: auto;
+}
+.mockup-sp img{
+    width: 100%;
+    width: auto;
+}
+.syadow{
+    filter: drop-shadow(5px 5px 5px rgba(0, 0.5, 0, 0.5));
+}
+
+.typing {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+   
+  .typing-effect {
+    width: 100%;
+    animation: typing 3s steps(23), effect .5s step-end infinite alternate;
+    white-space: wrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 2em;
+  }
+   
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes effect {
+    50% {
+      border-color: transparent
+    }
+  }
+
+  .self-intro{
+    margin: 0 10%;
+    margin-top: 5%;
+    display: flex;
+  }
+  .kv-meguro{
+    width: 500px;
+    height: auto;
+    padding-right: 100px;
+  }
+  .kv-meguro img{
+    width: 100%;
+    height: auto;
+    filter: drop-shadow(5px 5px 5px rgba(0, 0.5, 0, 0.5));
+  }
+  .self-intro h1{
+    font-size: 40px;
+    width: 200px;
+    background-color: #000;
+    color: white;
+    margin: 0;
+    filter: drop-shadow(5px 5px 5px rgba(0, 0.5, 0, 0.5));
+  }
+  .self-intro h2{
+    font-size: 80px;
+    margin-top: 20px;
+    
+  }
+  .self-intro p{
+    line-height: 150%;
+    font-size:16px;
+  }
+  span{
+    color: rgb(0, 143, 0);
+  }
+ .Tools{
+    font-size: 80px;
+    color: white;
+    filter: drop-shadow(5px 5px 5px rgba(94, 255, 140, 0.485));
+    margin-left: 10%;
+    padding-top: 50px
+ }
+ .tools{
+   background-color: darkgreen;
+   height: 500px;
+ }
+ .tools-back{
+    margin-top: 10%;
+    margin-bottom: 20%;
+ }
+.tools ul{
+    display: flex;
+    margin-left: 10%;
+    gap: 50px;
+}
+.tools li{
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 20px;
+    color: rgb(31, 92, 0);
+    font-size: 36px;
+    filter: drop-shadow(5px 5px 5px rgba(0, 0.5, 0, 0.5));
+}

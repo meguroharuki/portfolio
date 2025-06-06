@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_レイヤー_1" data-name="レイヤー 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160">
+  <defs>
+    <style>
+      .cls-1 {
+        font-family: MinionVariableConcept-Roman, 'Minion Variable Concept';
+        font-size: 33.55px;
+        font-variation-settings: 'wght' 400, 'opsz' 11;
+      }
+
+      .cls-1, .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g>
+    <rect class="cls-2" x="102.6" y="13.68" width="8.51" height="83.95" transform="translate(-8.06 91.86) rotate(-45)"/>
+    <path class="cls-2" d="M80.18,23.67l58.66,58.66-5.31,5.31-58.66-58.66,5.31-5.31M80.18,22.26l-6.73,6.73,60.07,60.07,6.73-6.73-60.07-60.07h0Z"/>
+  </g>
+  <g>
+    <rect class="cls-2" x="11.89" y="51.26" width="83.95" height="9.46" transform="translate(-23.81 54.48) rotate(-45)"/>
+    <path class="cls-2" d="M80.2,23.67l5.98,5.98-58.66,58.66-5.98-5.98,58.66-58.66M80.2,22.26l-60.07,60.07,7.39,7.39,60.07-60.07-7.39-7.39h0Z"/>
+  </g>
+  <text class="cls-1" transform="translate(47.09 117.92)"><tspan x="0" y="0">TOP</tspan></text>
+</svg>
